@@ -1,0 +1,493 @@
+@font-face {
+   font-family: Bebas; 
+   src: url('../fonts/BebasNeue.otf');
+} 
+
+@font-face {
+   font-family: DIN; 
+   src: url('../fonts/DIN-Medium.otf');
+} 
+
+@import url(http://fonts.googleapis.com/css?family=Cousine);
+
+html, body {
+	height: 100%;
+}
+
+body {
+	background-color: #000000;
+	margin: 0;
+	font-family: Helvetica, sans-serif;;
+	/*overflow: hidden;*/
+}
+
+a {
+	color: #ffffff;
+}
+
+/*------------------------------------------*/
+
+.pulse {
+    background:#ccc;
+    border:1px solid #666; 
+    padding:5px;
+    width:30px;
+}
+
+/*------------------------------------------*/
+
+
+#sideBar{
+	/*position: absolute;*/
+	background-color: #E6E6E6;
+	/*opacity: .8;*/
+	color: black;
+	float:right;
+	width: 400px;
+	margin-top: 90px;
+	height:1000px;
+	margin-right: auto;
+	overflow: scroll;
+
+}
+
+#mainAbout{
+	font-family: 'DIN';
+	/*background-color: white;*/
+	width:400px;
+	/*padding: 25px;*/
+}
+#mainAbout p{
+	font-family: 'DIN';
+	/*font-family: 'Bebas';*/
+	color:#38BAB1;
+	font-style: normal;
+  	/*font-weight: 100;*/
+
+  	text-align: justify;
+  	font-size: 13px;
+	width: 300px; 
+	/*height:50px;*/
+  	/*margin-left: 400px;*/
+	margin-top: 100px;
+	margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+#about{
+	font-family: 'DIN';
+	/*background-color: white;*/
+	width:400px;
+	padding: 25px;
+	overflow-y: scroll;
+}
+
+/*------------------------------------------*/
+#about p{
+	font-family: 'DIN';
+	/*font-family: 'BebasNeue';*/
+	color:#38BAB1;
+	font-style: normal;
+  	/*font-weight: 100;*/
+  	text-align: justify;
+  	font-size: 13px;
+	width: 300px; 
+	/*height:50px;*/
+  	/*margin-left: 400px;*/
+	margin-top: 100px;
+	margin-left: auto;
+    margin-right: auto;/   
+}
+
+#about img{
+	/*position:relative;*/
+    /*margin:4px 4px 4px 4px;*/
+	float: left;
+    display:inline-block;
+
+}
+
+#soon{
+	position: absolute;
+	font-family: 'DIN';
+	text-align: justify;
+	color:#38BAB1;
+	width: 350px;
+	margin-top: 0px;
+	margin-left: 5px;
+
+}
+
+#soon p{
+	font-size: 20px;
+	/*font-style: italic;*/
+}
+
+#soon2{
+	position: absolute;
+	font-family: 'DIN';
+	text-align: justify;
+	color:#38BAB1;
+	width: 350px;
+	margin-top: 85px;
+	margin-left: 30px;
+	font-size: 10px;
+}
+
+#par1{
+	position: absolute;
+	font-family: 'DIN';
+	text-align: justify;
+	color:#38BAB1;
+	width: 300px;
+	margin-top: -50px;
+	margin-left: 30px;
+	font-size: 10px;
+}
+
+#parJ{
+	position: absolute;
+	width: 40px;
+	margin-top: 122px;
+	margin-left: 30px;
+
+}
+#par_other{
+	position: absolute;
+	width: 40px;
+	margin-top: 62px;
+	margin-left: 30px;
+
+}
+
+#jimmy{
+	position: absolute;
+	margin-top: 138px;
+	margin-left: 30px;
+}
+
+#regina{
+	position: absolute;
+	margin-top: 420px;
+	margin-left: 30px;
+}
+
+#parR{
+	position: absolute;
+	margin-top: 410px;
+	margin-left: 30px;
+
+}
+
+.name{
+	/*font-family: 'Yanone Kaffeesatz', sans-serif;*/
+	/*font-family: 'Ubuntu Condensed';*/
+  	font-style: bold;
+  	font-style: italic;
+  	font-size: 20;
+	color: #38BAB1;
+	/*background-color: gray;*/
+}
+
+.name a{
+	text-decoration: none;
+	color: #38BAB1;
+
+}
+.name a:hover{
+	cursor: pointer;
+	background-color: gray;
+	color: yellow;
+	opacity: 0.8;
+}	
+
+
+#info {
+	position: absolute;
+	width: 100%;
+	color: #ffffff;
+	padding: 5px;
+	font-family: Monospace;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	z-index: 1;
+}
+
+/*------------------------------------------*/
+
+#navBar {
+	position: fixed;
+	margin-top: 0px;
+	height: 90px;
+	/*position: absolute;*/
+	background-color: #38BAB1;
+	/*background-color: rgba(255,255,255,0.9);*/
+	z-index: 100;
+	width: 100%;
+	/*opacity: 0.6;*/
+	overflow-x:scroll;
+	overflow-y:hidden;
+	white-space:nowrap;
+}
+
+#navBar ul {
+	float: right;
+	padding: 20px;
+	margin-left: 10px;
+	margin-top: 0px;
+}
+
+#navBar li {
+	display: inline;
+	list-style-type: none; /* removing bullets */
+	/* margin: 20px; */
+	text-align: bottom;
+	float: right; 
+	font-size: 20px;
+	text-align:center;
+	color: red;
+	font-family: 'Bebas';
+	border: 1px solid white;
+	margin: 8px;
+}
+
+#navBar li a {
+	font-family: 'Bebas'	;
+	color: white;
+	padding: 2px;
+	width: 110px;
+	text-decoration: none;
+	display: block; 
+	text-decoration: none;
+	margin-top:4px;
+}
+
+#navBar li a:hover{
+	cursor: pointer;
+	opacity: 0.8;
+	color: yellow;
+}
+
+#navBar img{
+	margin-left: 10px;
+}
+
+a:hover, a:active {
+    /*background-color: gray;*/
+    text-decoration: none;
+}
+
+/* ---------------------------------------  */
+#mobile{
+	background-color: black;
+	position: fixed;
+	width: 68%;
+	height:100%;
+	margin-top: 70px;
+	margin-left: 0px;
+	margin-right: 20px;
+	text-align: left;
+	
+}
+
+#mobile img{
+
+	/*height: 80%;*/
+	/*margin-top: 5%;*/
+	/*margin-left: 100px;*/
+	/*margin-right: -50%;*/
+	height: 100%;
+	width: 100%;
+}
+
+#apiImage{
+	background-color: black;
+	position: fixed;
+	width: 68%;
+	height:100%;
+	margin-top: 90px;
+	margin-left: 0px;
+	margin-right: 20px;
+	text-align: left;
+	
+}
+
+#apiImage img{
+	height: 600px;
+}
+
+#rotSphere{
+	background-color: black;
+	position: fixed;
+	width: 68%;
+	height:100%;
+	margin-top: 70px;
+	margin-left: 0px;
+	margin-right: 20px;
+	text-align: left;
+	
+}
+
+#rotSphere img{
+	margin-top: 30px;
+	/*height: 100%;*/
+	width: 100%;
+}
+
+#sphereMenu {
+	position: fixed;
+	top: 90%;
+	width: 100%;
+	margin-left: 50px;
+	/*text-align: left;*/
+	margin-left: 360px;
+}
+
+/*------------------------------------------*/
+
+.plantCard {
+	width: 120px;
+	height: 160px;
+	box-shadow: 0px 0px 12px rgba(0,255,255,0.5);
+	border: 1px solid rgba(127,255,255,0.25);
+	text-align: center;
+	cursor: default;
+}
+
+.pulse{
+	box-shadow: 5px 60px 120px rgba(120,255,50,0.5);
+	border: 1px solid rgba(127,255,255,0.25);
+}
+
+
+.plantCard:hover {
+	box-shadow: 0px 0px 12px rgba(0,255,255,0.75);
+	border: 1px solid rgba(127,255,255,0.75);
+}
+
+.plantCard .number {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	font-size: 12px;
+	color: rgba(127,255,255,0.75);
+}
+
+.plantCard .symbol {
+	position: absolute;
+	top: 40px;
+	left: 0px;
+	right: 0px;
+	font-size: 35px;
+	font-weight: bold;
+	color: rgba(255,255,255,0.75);
+	text-shadow: 0 0 10px rgba(0,255,255,0.95);
+}
+
+.plantCard .details {
+	position: absolute;
+	bottom: 15px;
+	left: 0px;
+	right: 0px;
+	font-size: 12px;
+	color: rgba(127,255,255,0.75);
+}
+
+.legend .mono {
+	font-family: 'Cousine';
+	font-size: 12px;
+	fill: #aaa;
+}
+
+button {
+	color: rgba(127,255,255,0.75);
+	background: transparent;
+	outline: 1px solid rgba(127,255,255,0.75);
+	border: 0px;
+	padding: 5px 10px;
+	cursor: pointer;
+
+}
+button:hover {
+	background-color: rgba(0,255,255,0.5);
+}
+button:active {
+	color: #000000;
+	background-color: rgba(0,255,255,0.75);
+}
+
+/*------------------------------------------*/
+
+#card h1{
+	font-family: 'Bebas';
+	font-size: 35px;
+	color: #38BAB1;
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align:center;
+	border: 1px solid white;
+	background-color: white;
+
+}
+
+#card p{
+	font-family: 'Bebas';
+	font-size: 30px;
+	color: #38BAB1;
+	margin-left: 30%;
+	margin-right: 10%;
+	text-align:center;
+	border: 1px solid white;
+	background-color: white;
+
+}
+#ph > img {
+	position: absolute;
+    margin-top: -290px;
+    margin-left: 35px;
+}
+
+#rgb > img {
+	position: absolute;
+ 	margin-top: -220px;
+    margin-left: 35px;
+}
+#temp > img {
+	position: absolute;
+    margin-top: -150px;
+    margin-left: 35px;
+}
+#hum > img {
+	position: absolute;
+    margin-top: -82px;
+    margin-left: 35px;
+}
+
+/*------------------------------------------*/
+
+rect.bordered {
+	stroke: #E6E6E6;
+	stroke-width:2px;   
+}
+
+text.mono {
+	font-size: 9pt;
+	font-family: 'DIN';
+	fill: #aaa;
+	/*font-family: Consolas, courier;*/
+	/*fill: #aaa;*/
+}
+
+text.axis-workweek {
+	font-size: 9pt;
+	font-family: 'DIN';
+	fill: #aaa;
+}
+
+text.axis-worktime {
+	font-size: 9pt;
+	font-family: 'DIN';
+	fill: #aaa;
+}
